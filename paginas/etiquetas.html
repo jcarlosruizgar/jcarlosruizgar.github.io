@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html language="es">
+<head>
+    <title>etiquetas</title>
+    <!-- metas-->
+    <meta charset="utf-8">
+    <meta name="keyword" content="java, aprendiendo java">
+    <meta name="author" content="juan carlos ruiz garcía">
+    <meta name="description" content="ejemplo de código en java y como utilizarlo">
+    <!-- favicon -->
+	<link rel="icon" type="image/png" href="./media/favicon.ico" sizes="32x32">
+	<link rel="icon" type="image/png" href="./media/favicon.ico" sizes="192x192">
+	<link rel="icon" type="image/png" href="./media/favicon.ico" sizes="96x96">
+	<link rel="icon" type="image/png" href="./media/favicon.ico" sizes="16x16">
+</head>
+<body>
+    <h1>Lenguaje de programación java</h1>
+    <h2>¿Que es java?</h2>
+    <p><dfn>Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems.</dfn> <cite>Hay muchas aplicaciones y sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes.</cite></p>
+    <h2>Creando un programa en java</h2>
+    <p>Vamos a realizar un programa en el <strong>lenguaje de programación java</strong>, que realice <em>una suma, una resta, una multiplicación y una división</em> de <i>2 números que determinaremos en el código</i> del programa, <samp>para nuestro ejemplo vamos a utilizar los números 10 y 5.</samp></p>
+    <p>Para nuestro programa utilizaremos las variables <var title="variables OperacionesApp">num1=10 y num2=5</var></p>
+    <p>Llamaremos a nuestro archivo OperacionesApp.java, el código de nuestro programa en java será el siguiente:</p>
+    <code title="OperacionesApp" alt="código programa OperacionesApp">public class OperacionesApp {
+ 
+        public static void main(String[] args) {
+     
+            //Declaramos las variables
+            int num1=10;
+            int num2=5;
+     
+            /*Realizamos las operaciones.
+             * Tambien lo podemos guardar el resultado en variables. */
+     
+            System.out.println("El resultado de la suma es "+(num1+num2));
+     
+            System.out.println("El resultado de la resta es "+(num1-num2));
+     
+            System.out.println("El resultado de la multiplicación es "+(num1*num2));
+     
+            System.out.println("El resultado de la división es "+(num1/num2));
+        }
+    }</code>
+    <br>
+    <p>Este programa no nos pedirá <kbd>introducir ningún dato por teclado</kbd>, ya que hemos definido el valor de las variables en su código, por ello tan solo mostrará los resultados de las operaciones por pantalla.</p>
+    <br>
+        <a href="../index.html" title="index">Volver a la página principal</a>
+</body>
+</html>
