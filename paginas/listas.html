@@ -10,10 +10,10 @@
         <meta name="author" content="juan carlos ruiz garcía">
         <meta name="description" content="primera web realizada para aprender html">
         <!-- favicon -->
-        <link rel="icon" type="image/png" href="./media/favicon.ico" sizes="32x32">
-        <link rel="icon" type="image/png" href="./media/favicon.ico" sizes="192x192">
-        <link rel="icon" type="image/png" href="./media/favicon.ico" sizes="96x96">
-        <link rel="icon" type="image/png" href="./media/favicon.ico" sizes="16x16">
+        <link rel="icon" type="image/png" href="../media/favicon.ico" sizes="32x32">
+        <link rel="icon" type="image/png" href="../media/favicon.ico" sizes="192x192">
+        <link rel="icon" type="image/png" href="../media/favicon.ico" sizes="96x96">
+        <link rel="icon" type="image/png" href="../media/favicon.ico" sizes="16x16">
         <link href="https://fonts.googleapis.com/css?family=Source Code Pro" rel="stylesheet">
         <!--para facebook-->
         <meta property="og:description" content="La primera web de Juan Carlos Ruiz García"/>
@@ -23,30 +23,45 @@
         <meta property="og:image" content="">
     </head>
     <body>
-        <h1>Ejemplos de listas</h1>
-        <h2>Tipos numéricos enteros</h2>
-        <p>En Java existen cuatro tipos destinados a almacenar números enteros. La única diferencia entre ellos es el número de bytes usados para su almacenamiento y, en consecuencia, el rango de valores que es posible representar con ellos. Todos ellos emplean una representación que permite el almacenamiento de números negativos y positivos. El nombre y características de estos tipos son los siguientes:</p>
-        <ol>
-            <li>byte: como su propio nombre denota, emplea un solo byte (8 bits) de almacenamiento. Esto permite almacenar valores en el rango [-128, 127].</li>
-            <li>short: usa el doble de almacenamiento que el anterior, lo cual hace posible representar cualquier valor en el rango [-32.768, 32.767].</li>
-            <li>int: emplea 4 bytes de almacenamiento y es el tipo de dato entero más empleado. El rango de valores que puede representar va de -231 a 231-1.</li>
-            <li>long: es el tipo entero de mayor tamaño, 8 bytes (64 bits), con un rango de valores desde -263 a 263-1.</li>
-        </ol>
-        <h2>Tipos numéricos en punto flotante</h2>
-        <p>Los tipos numéricos en punto flotante permiten representar números tanto muy grandes como muy pequeños además de números decimales. Java dispone de 2 tipos concretos en esta categoría:</p>
-        <ul>
-            <li>float: conocido como tipo de precisión simple, emplea un total de 32 bits. Con este tipo de datos es posible representar números en el rango de 1.4x10-45 a 3.4028235x1038.</li>
-            <li>double: sigue un esquema de almacenamiento similar al anterior, pero usando 64 bits en lugar de 32. Esto le permite representar valores en el rango de 4.9x10-324 a 1.7976931348623157x10308.</li>
-        </ul>
-        <h2>Booleanos y caracteres</h2>
-        <p>Aparte de los 6 tipos de datos que acabamos de ver, destinados a trabajar con números en distintos rangos, Java define otros dos tipos primitivos más:</p>
-        <dl>
-            <dt>boolean:</dt>
-            <dd>tiene la finalidad de facilitar el trabajo con valores "verdadero/falso" (booleanos), resultantes por regla general de evaluar expresiones. Los dos valores posibles de este tipo son true y false.</dd>
-            <dt>char:</dt>
-            <dd>se utiliza para almacenar caracteres individuales (letras, para entendernos). En realidad está considerado también un tipo numérico, si bien su representación habitual es la del carácter cuyo código almacena. Utiliza 16 bits y se usa la codificación UTF-16 de Unicode.</dd>
-        </dl>
-        <br>
-        <a href="../index.html" title="index">Volver a la página principal</a>
+        <header>
+            <a href="./index.html"><img src="./media/favicon.ico"></a>
+            Web de Juan Carlos Ruiz García
+        </header>
+        <nav>
+            <a href="../paginas/enlaces.html">Enlaces</a>
+            <a href="../paginas/etiquetas.html">Etiquetas</a>
+            <a href="../paginas/inicio java.html">Inicio java</a>
+            <a href="../paginas/listas.html">Listas</a>
+            <a href="../paginas/multimedia.html">Multimedia</a>
+            <a href="../paginas/tablas.html">Tablas</a>
+        </nav>
+        <main>
+            <h1>Ejemplos de listas</h1>
+            <h2>Tipos numéricos enteros</h2>
+            <p>En Java existen cuatro tipos destinados a almacenar números enteros. La única diferencia entre ellos es el número de bytes usados para su almacenamiento y, en consecuencia, el rango de valores que es posible representar con ellos. Todos ellos emplean una representación que permite el almacenamiento de números negativos y positivos. El nombre y características de estos tipos son los siguientes:</p>
+            <ol>
+                <li>byte: como su propio nombre denota, emplea un solo byte (8 bits) de almacenamiento. Esto permite almacenar valores en el rango [-128, 127].</li>
+                <li>short: usa el doble de almacenamiento que el anterior, lo cual hace posible representar cualquier valor en el rango [-32.768, 32.767].</li>
+                <li>int: emplea 4 bytes de almacenamiento y es el tipo de dato entero más empleado. El rango de valores que puede representar va de -231 a 231-1.</li>
+                <li>long: es el tipo entero de mayor tamaño, 8 bytes (64 bits), con un rango de valores desde -263 a 263-1.</li>
+            </ol>
+            <h2>Tipos numéricos en punto flotante</h2>
+            <p>Los tipos numéricos en punto flotante permiten representar números tanto muy grandes como muy pequeños además de números decimales. Java dispone de 2 tipos concretos en esta categoría:</p>
+            <ul>
+                <li>float: conocido como tipo de precisión simple, emplea un total de 32 bits. Con este tipo de datos es posible representar números en el rango de 1.4x10-45 a 3.4028235x1038.</li>
+                <li>double: sigue un esquema de almacenamiento similar al anterior, pero usando 64 bits en lugar de 32. Esto le permite representar valores en el rango de 4.9x10-324 a 1.7976931348623157x10308.</li>
+            </ul>
+            <h2>Booleanos y caracteres</h2>
+            <p>Aparte de los 6 tipos de datos que acabamos de ver, destinados a trabajar con números en distintos rangos, Java define otros dos tipos primitivos más:</p>
+            <dl>
+                <dt>boolean:</dt>
+                <dd>tiene la finalidad de facilitar el trabajo con valores "verdadero/falso" (booleanos), resultantes por regla general de evaluar expresiones. Los dos valores posibles de este tipo son true y false.</dd>
+                <dt>char:</dt>
+                <dd>se utiliza para almacenar caracteres individuales (letras, para entendernos). En realidad está considerado también un tipo numérico, si bien su representación habitual es la del carácter cuyo código almacena. Utiliza 16 bits y se usa la codificación UTF-16 de Unicode.</dd>
+            </dl>
+        </main>
+        <footer>
+            <a href="../index.html">Volver a la página de inicio</a>
+        </footer>
     </body>
 </html>

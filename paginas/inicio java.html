@@ -10,10 +10,10 @@
         <meta name="author" content="juan carlos ruiz garcía">
         <meta name="description" content="primera web realizada para aprender html">
         <!-- favicon -->
-        <link rel="icon" type="image/png" href="./media/favicon.ico" sizes="32x32">
-        <link rel="icon" type="image/png" href="./media/favicon.ico" sizes="192x192">
-        <link rel="icon" type="image/png" href="./media/favicon.ico" sizes="96x96">
-        <link rel="icon" type="image/png" href="./media/favicon.ico" sizes="16x16">
+        <link rel="icon" type="image/png" href="../media/favicon.ico" sizes="32x32">
+        <link rel="icon" type="image/png" href="../media/favicon.ico" sizes="192x192">
+        <link rel="icon" type="image/png" href="../media/favicon.ico" sizes="96x96">
+        <link rel="icon" type="image/png" href="../media/favicon.ico" sizes="16x16">
         <link href="https://fonts.googleapis.com/css?family=Source Code Pro" rel="stylesheet">
         <!--para facebook-->
         <meta property="og:description" content="La primera web de Juan Carlos Ruiz García"/>
@@ -23,41 +23,56 @@
         <meta property="og:image" content="">
     </head>
     <body>
-        <pre>
-                                                                                                                                                              
-.sSSSSs.    .sSSSSSSSs. .sSSSSs.    .sSSSs.  SSSSS      .sSSSSs.    .sSSSSs.    SSSSS       SSSSS       .sSSSSs.    .sSSSSSSSSSSSSSs. .sSSSSs.    
-S SSSSSSSs. S SSS SSSSS S SSSSSSSs. S SSS SS SSSSS      S SSSSSSSs. S SSSSSSSs. S SSS       S SSS       S SSSSSSSs. SSSSS S SSS SSSSS S SSSSSSSs. 
-S  SS SSSS' S  SS SSSS' S  SS SSSSS S  SS  `sSSSSS      S  SS SSSS' S  SS SSSSS S  SS       S  SS       S  SS SSSSS SSSSS S  SS SSSSS S  SS SSSS' 
-S..SS       S..SSsSSSa. S..SSsSSSSS S..SS    SSSSS      S..SS       S..SSsSSSSS S..SS       S..SS       S..SSsSSSSS `:S:' S..SS `:S:' S..SS       
-S:::SSSS    S:::S SSSSS S:::S SSSSS S:::S    SSSSS      S:::S SSSSS S:::S SSSSS S:::S       S:::S       S:::S SSSSS       S:::S       S:::SSSS    
-S;;;S       S;;;S SSSSS S;;;S SSSSS S;;;S    SSSSS      S;;;S SSSSS S;;;S SSSSS S;;;S       S;;;S       S;;;S SSSSS       S;;;S       S;;;S       
-S%%%S       S%%%S SSSSS S%%%S SSSSS S%%%S    SSSSS      S%%%S SSSSS S%%%S SSSSS S%%%S SSSSS S%%%S SSSSS S%%%S SSSSS       S%%%S       S%%%S SSSSS 
-SSSSS       SSSSS SSSSS SSSSS SSSSS SSSSS    SSSSS      SSSSSsSSSSS SSSSS SSSSS SSSSSsSS;:' SSSSSsSS;:' SSSSS SSSSS       SSSSS       SSSSSsSS;:' 
-                                                                                                                                                  
-        <p>
-        import java.util.Scanner;
+        <header>
+            <a href="./index.html"><img src="./media/favicon.ico"></a>
+            Web de Juan Carlos Ruiz García
+        </header>
+        <nav>
+            <a href="../paginas/enlaces.html">Enlaces</a>
+            <a href="../paginas/etiquetas.html">Etiquetas</a>
+            <a href="../paginas/inicio java.html">Inicio java</a>
+            <a href="../paginas/listas.html">Listas</a>
+            <a href="../paginas/multimedia.html">Multimedia</a>
+            <a href="../paginas/tablas.html">Tablas</a>
+        </nav>
+        <main>
+            <pre>
+                                                                                                                                                                
+    .sSSSSs.    .sSSSSSSSs. .sSSSSs.    .sSSSs.  SSSSS      .sSSSSs.    .sSSSSs.    SSSSS       SSSSS       .sSSSSs.    .sSSSSSSSSSSSSSs. .sSSSSs.    
+    S SSSSSSSs. S SSS SSSSS S SSSSSSSs. S SSS SS SSSSS      S SSSSSSSs. S SSSSSSSs. S SSS       S SSS       S SSSSSSSs. SSSSS S SSS SSSSS S SSSSSSSs. 
+    S  SS SSSS' S  SS SSSS' S  SS SSSSS S  SS  `sSSSSS      S  SS SSSS' S  SS SSSSS S  SS       S  SS       S  SS SSSSS SSSSS S  SS SSSSS S  SS SSSS' 
+    S..SS       S..SSsSSSa. S..SSsSSSSS S..SS    SSSSS      S..SS       S..SSsSSSSS S..SS       S..SS       S..SSsSSSSS `:S:' S..SS `:S:' S..SS       
+    S:::SSSS    S:::S SSSSS S:::S SSSSS S:::S    SSSSS      S:::S SSSSS S:::S SSSSS S:::S       S:::S       S:::S SSSSS       S:::S       S:::SSSS    
+    S;;;S       S;;;S SSSSS S;;;S SSSSS S;;;S    SSSSS      S;;;S SSSSS S;;;S SSSSS S;;;S       S;;;S       S;;;S SSSSS       S;;;S       S;;;S       
+    S%%%S       S%%%S SSSSS S%%%S SSSSS S%%%S    SSSSS      S%%%S SSSSS S%%%S SSSSS S%%%S SSSSS S%%%S SSSSS S%%%S SSSSS       S%%%S       S%%%S SSSSS 
+    SSSSS       SSSSS SSSSS SSSSS SSSSS SSSSS    SSSSS      SSSSSsSSSSS SSSSS SSSSS SSSSSsSS;:' SSSSSsSS;:' SSSSS SSSSS       SSSSS       SSSSSsSS;:' 
+                                                                                                                                                    
+            <p>
+            import java.util.Scanner;
 
 
-public class MayordeEdadApp {
-    public static void main(String[] args) {
-      Scanner edad = new Scanner(System.in);
-      int n =0;
-      System.out.println("¿Cuántos años tienes?");
-      n = edad.nextInt();
-      
-      if(n>=18){
-          System.out.println("Eres mayor de edad");
-      }
-      else{
-          System.out.println("Eres menor de edad");
-      }
-edad.close();
-    }
-    
-}
-</p>
-</pre>
-<br>
-        <a href="../index.html" title="index">Volver a la página principal</a>
+            public class MayordeEdadApp {
+                public static void main(String[] args) {
+                Scanner edad = new Scanner(System.in);
+                int n =0;
+                System.out.println("¿Cuántos años tienes?");
+                n = edad.nextInt();
+                
+                if(n>=18){
+                    System.out.println("Eres mayor de edad");
+                }
+                else{
+                    System.out.println("Eres menor de edad");
+                }
+            edad.close();
+                }
+                
+            }
+            </p>
+        </pre>
+        </main>
     </body>
+    <footer>
+        <a href="../index.html">Volver a la página de inicio</a>
+    </footer>
 </html>
