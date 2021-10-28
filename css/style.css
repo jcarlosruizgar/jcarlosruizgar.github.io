@@ -1,0 +1,14 @@
+body{
+    background-color: #4618ac;
+    color: white;
+}
+.header{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+    height: 60px;
+    color: #fff;
+}
+.logo{
+    display: flexbox;
+}
