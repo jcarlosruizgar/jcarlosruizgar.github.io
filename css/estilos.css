@@ -159,13 +159,13 @@ body {
 
     .nav__li-container{
         position: relative;
-        top: -100%;
+        top: -10000px;
         height: calc(100vh - 4em);
         background-color: #48e;
     }
 
-    .nav__responsive-ul:hover{
-        
+    .nav__responsive-ul:hover > .nav__li-container{
+        top: 0;
     }
 
 
