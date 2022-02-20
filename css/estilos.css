@@ -111,12 +111,7 @@ body {
     .nav__ul{
         display: none;
     }
-    .nav__responsive-ul{
-        display:block;
-        position: absolute;
-        background-color: #48e;
-    }
-
+    
     .nav__responsive-button{
         float: right;
         font-size: 1.5em;
@@ -129,6 +124,17 @@ body {
         width: 100vw;
     }
 
+    .nav__responsive-ul{
+        display:block;
+        position: absolute;
+        background-color: #48e;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .nav__responsive-li{
+        width: 50vw;
+    }
 
 
     .grid-container {
@@ -141,5 +147,11 @@ body {
             'footer';
         grid-template-columns: auto;
         grid-template-rows: 20% 10% auto 20% 20%;
+    }
+
+    .grid-container>div {
+        text-align: center;
+        font-size: 2em;
+        padding: 0;
     }
 }
