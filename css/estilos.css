@@ -130,10 +130,23 @@ body {
         background-color: #48e;
         height: 100vh;
         width: 100vw;
+        margin-top: 2em;
     }
 
     .nav__responsive-li{
         width: 50vw;
+        padding: .6em;
+    }
+
+    .nav__responsive-li i{
+        width: 1.5em;
+        text-align: center;
+        color: #016;
+    }
+
+    .nav__responsive-li a{
+        color: #016;
+        text-decoration: none;
     }
 
 
