@@ -55,10 +55,10 @@ body{
     .grid-container{
         display: grid;
         grid-template-areas:
-        'header header header'
-        'menu menu menu'
-        'main main main'
-        'right right right'
-        'footer footer footer';
+        'header'
+        'menu'
+        'main'
+        'right'
+        'footer';
     }
 }
