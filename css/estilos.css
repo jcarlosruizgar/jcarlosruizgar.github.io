@@ -134,8 +134,7 @@ body {
     .nav__responsive-ul{
         display:block;
         position: absolute;
-        background-color: #48e;
-        height: 100vh;
+        
         width: 100vw;
         margin-top: 2em;
         padding-top: 2em;
@@ -144,6 +143,7 @@ body {
     .nav__responsive-li{
         width: 50vw;
         padding: .6em;
+        display: inline-block;
     }
 
     .nav__responsive-li i{
@@ -156,6 +156,25 @@ body {
         color: #016;
         text-decoration: none;
     }
+
+    .nav__li-container{
+        position: relative;
+        top: -100%;
+        height: calc(100vh - 4em);
+        background-color: #48e;
+    }
+
+    .nav__responsive-ul:hover{
+        
+    }
+
+
+
+
+
+
+
+
 
 
     .grid-container {
