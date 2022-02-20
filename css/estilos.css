@@ -1,65 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+ul{
+    list-style: none;
+}
+
 :root {
     --main-bg-color: aquamarine;
 }
-body{
+
+body {
     background-color: var(--main-bg-color);
 }
-.item1{
-    grid-area:header;
+
+.item1 {
+    grid-area: header;
     background-color: blue;
 }
-.item2{
-    grid-area:menu;
+
+.item2 {
+    grid-area: menu;
     background-color: brown;
 }
-.item3{
-    grid-area:main;
+
+.item3 {
+    grid-area: main;
     background-color: blueviolet;
 }
-.item4{
-    grid-area:right;
+
+.item4 {
+    grid-area: right;
     background-color: chartreuse;
 }
-.item5{
-    grid-area:footer;
+
+.item5 {
+    grid-area: footer;
     background-color: crimson;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     height: 100vh;
     grid-template-areas:
-    'header header'
-    'menu menu'
-    'main right'
-    'footer footer';
+        'header header'
+        'menu menu'
+        'main right'
+        'footer footer';
     grid-template-columns: 80% auto;
     grid-template-rows: 20% 20% auto 20%;
     grid-gap: 10px;
     background-color: rgb(4, 73, 50);
     padding: 10px;
 }
-    .grid-container > div{
-        text-align: center;
-        font-size: 2em;
-        padding: 20px;
+
+.grid-container>div {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.nav__responsive-ul {
+    display: none;
+}
+
+.nav {
+    background-color: darkslateblue;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 1em;
+    color: #fff;
+}
+
+.nav__li:hover>a {
+    color: #bbb;
+}
+
+.nav__li:hover {
+    color: #bbb;
+}
+
+.nav__li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__li i {
+    width: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .nav__ul{
+        display: none;
     }
-@media (max-width: 800px){
-    .grid-container{
+    .nav__responsive-ul{
+        display:block;
+        position: absolute;
+        background-color: #48e;
+    }
+
+    .nav__responsive-button{
+        float: right;
+        font-size: 1.5em;
+        padding: 0.3em 1.1em;
+        width: 100vw;
+    }
+
+    .nav{
+        height: 2em;
+        width: 100vw;
+    }
+
+
+
+    .grid-container {
         display: grid;
         grid-template-areas:
-        'header'
-        'menu'
-        'main'
-        'right'
-        'footer';
+            'header'
+            'menu'
+            'main'
+            'right'
+            'footer';
         grid-template-columns: auto;
         grid-template-rows: 20% 10% auto 20% 20%;
     }
