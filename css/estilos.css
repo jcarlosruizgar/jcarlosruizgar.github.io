@@ -1,0 +1,56 @@
+:root {
+    --main-bg-color: aquamarine;
+}
+body{
+    background-color: var(--main-bg-color);
+    height: 50vh;
+    width: 50vw;
+}
+.item1{
+    grid-area:header;
+    background-color: blue;
+}
+.item2{
+    grid-area:menu;
+    background-color: brown;
+}
+.item3{
+    grid-area:main;
+    background-color: blueviolet;
+}
+.item4{
+    grid-area:right;
+    background-color: chartreuse;
+}
+.item5{
+    grid-area:footer;
+    background-color: crimson;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu main main main right right'
+    'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: rgb(4, 73, 50);
+    padding: 10px;
+}
+    .grid-container > div{
+        text-align: center;
+        font-size: 2em;
+        padding: 20px;
+    }
+@media (max-width: 400px){
+    .grid-container{
+        display: grid;
+        grid-template-areas:
+        'header header header'
+        'menu menu menu'
+        'main main main'
+        'right right right'
+        'footer footer footer';
+    }
+}
