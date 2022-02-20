@@ -15,7 +15,7 @@ body{
     grid-area:header;
     background-color: blue;
 }
-.nav{
+.item2{
     grid-area:menu;
     background-color: brown;
 }
