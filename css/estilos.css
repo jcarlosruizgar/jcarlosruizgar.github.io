@@ -11,6 +11,7 @@ ul{
     list-style: none;
 }
 
+
 :root {
     --main-bg-color: aquamarine;
 }
@@ -22,6 +23,7 @@ body {
 .item1 {
     grid-area: header;
     background-color: blue;
+    z-index: 100;
 }
 
 .item2 {
@@ -118,6 +120,7 @@ body {
         font-size: 1.5em;
         background-color: #69c;
         margin-top: -3em;
+        z-index: 100;
     }
 
     .nav__responsive-button{
@@ -134,8 +137,7 @@ body {
     .nav__responsive-ul{
         display:block;
         position: absolute;
-        
-        width: 100vw;
+        height: 2em;
         margin-top: 2em;
         padding-top: 2em;
     }
@@ -162,6 +164,10 @@ body {
         top: -10000px;
         height: calc(100vh - 4em);
         background-color: #48e;
+        transition: all 1s;
+        z-index: 1;
+        width: 90vw;
+        padding-top: 1em;
     }
 
     .nav__responsive-ul:hover > .nav__li-container{
