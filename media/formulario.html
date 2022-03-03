@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    <title>Formulario</title>
 </head>
 <body>
     <div>
@@ -44,10 +45,14 @@
                 <br>
                 <label for="titulacion">Titulación:</label>
                 <select name="titulacion" id="titulacion">
-                    <option value="bachillerato">Bachillerato</option>
-                    <option value="medio">Grado medio</option>
-                    <option value="superior">Grado superior</option>
-                    <option value="universidad">Universidad</option>
+                    <optgroup label="Nivel básico">
+                        <option value="bachillerato">Bachillerato</option>
+                        <option value="medio">Grado medio</option>
+                    </optgroup>
+                    <optgroup label="Nivel superior">
+                        <option value="superior">Grado superior</option>
+                        <option value="universidad">Universidad</option>
+                    </optgroup>
                 </select>
                 <br>
                 <label for="modulos">Módulo preferido:</label>
@@ -65,6 +70,10 @@
                 <br>
                 <input type="checkbox" id="moto" name="moto" value="moto">
                 <label for="moto">moto</label>
+                <br>
+                <label for="info">Información adicional:</label>
+                <br>
+                <textarea name="info" id="info" placeholder="Aporte información adicional..."></textarea>
             </fieldset>
             <input type="reset" name="Reiniciar" id="reset">
             <br>
