@@ -3,3 +3,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.formulario{
+    height:fit-content;
+    width: 50vw;
+}
+input:invalid,
+tex:invalid{
+    color: red;
+}
