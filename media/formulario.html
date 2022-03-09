@@ -13,18 +13,18 @@
             <fieldset>
                 <legend>Datos personales:</legend>
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre">
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
                 <label for="apellidos">Apellidos:</label>
-                <input type="text" id="apellidos" name="apellidos">
+                <input type="text" id="apellidos" name="apellidos" required placeholder="Apellidos">
                 <label for="edad">Edad:</label>
-                <input type="number" id="edad" name="edad">
+                <input type="number" id="edad" name="edad" required placeholder="Edad">
                 <br>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required placeholder="ejemplo@ejemplo.com">
                 <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}">
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required placeholder="XXXXXXXXX">
                 <label for="fecha">Fecha de nacimiento:</label>
-                <input type="date" id="fecha" name="fecha">
+                <input type="date" id="fecha" name="fecha" required>
             </fieldset>
             <fieldset>
                 <legend>Otros datos:</legend>
@@ -41,7 +41,7 @@
                 <br>
                 <label for="contrasena">Constraseña:</label>
                 <br>
-                <input type="password" id="contrasena" name="contrasena">
+                <input type="password" id="contrasena" name="contrasena" required>
                 <br>
                 <label for="titulacion">Titulación:</label>
                 <select name="titulacion" id="titulacion">
