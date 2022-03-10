@@ -44,6 +44,9 @@ body {
 .item5 {
     grid-area: footer;
     background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid-container {
@@ -98,6 +101,23 @@ body {
     width: 1.5em;
 }
 
+.copyright{
+    width: 80px;
+}
+
+.div-copy{
+    width: 50%;
+    margin: auto;
+   
+    
+}
+
+.div-redes{
+    width: 50%;
+    margin: auto;
+
+    
+}
 
 
 
