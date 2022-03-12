@@ -76,6 +76,7 @@ body {
 
 .nav {
     background-color: darkslateblue;
+    border-radius: 50px;
 }
 
 .nav__li {
