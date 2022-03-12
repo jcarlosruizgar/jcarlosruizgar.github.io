@@ -30,7 +30,9 @@ body {
 
 .item2 {
     grid-area: menu;
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .item3 {
