@@ -42,7 +42,6 @@ body {
 
 .item4 {
     grid-area: right;
-    z-index: 500;
     display: flex;
     align-items: center;
     justify-content: center;
