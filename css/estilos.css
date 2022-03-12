@@ -57,8 +57,8 @@ body {
         'menu menu'
         'main right'
         'footer footer';
-    grid-template-columns: 80% auto;
-    grid-template-rows: 20% 20% auto 20%;
+    grid-template-columns: 85% auto;
+    grid-template-rows: 15% 15% auto 15%;
     grid-gap: 10px;
     background-color: rgb(4, 73, 50);
     padding: 10px;
@@ -115,11 +115,12 @@ body {
 .div-redes{
     width: 50%;
     margin: auto;
-
-    
 }
 
-
+.textofooter{
+    font-size: 0.7em;
+    font-weight: bold;
+}
 
 
 
