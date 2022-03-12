@@ -150,7 +150,9 @@ body {
     display: none;
 }
 
-
+.headermovil{
+    display: none;
+}
 
 
 
@@ -252,6 +254,14 @@ body {
     }
 
     .publimovil{
+        display: block;
+    }
+
+    .headerescritorio{
+        display: none;
+    }
+
+    .headermovil{
         display: block;
     }
 
