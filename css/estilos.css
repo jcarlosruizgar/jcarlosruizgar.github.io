@@ -65,10 +65,10 @@ body {
         'main right'
         'footer footer';
     grid-template-columns: 85% auto;
-    grid-template-rows: 15% 15% auto 15%;
-    grid-gap: 10px;
+    grid-template-rows: 15% 10% auto 15%;
+    grid-gap: 5px;
     background-color: rgb(4, 73, 50);
-    padding: 10px;
+    padding: 5px;
 }
 
 .grid-container>div {
