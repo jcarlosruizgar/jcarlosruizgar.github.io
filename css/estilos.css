@@ -124,11 +124,13 @@ body {
 .div-redes a{
     text-decoration: none;
     padding: 0.5em;
+    
 }
 
 .textofooter{
     font-size: 0.7em;
     font-weight: bold;
+    padding-bottom: 0.5em;
 }
 
 .fa-brands{
@@ -139,6 +141,12 @@ body {
     color: white;
     font-size: 1.1em;
 }
+
+.publimovil{
+    display: none;
+}
+
+
 
 
 
@@ -219,8 +227,8 @@ body {
             'header'
             'menu'
             'main'
-            'footer'
-            'right';
+            'right'
+            'footer';
         grid-template-columns: auto;
         grid-template-rows: 20% 10% auto 20% 20%;
     }
@@ -233,6 +241,14 @@ body {
   
     .div-copy{
         display: none;
+    }
+
+    .publiescritorio{
+        display: none;
+    }
+
+    .publimovil{
+        display: block;
     }
 
 }
