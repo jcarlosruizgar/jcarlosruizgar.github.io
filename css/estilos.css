@@ -216,8 +216,8 @@ body {
             'header'
             'menu'
             'main'
-            'right'
-            'footer';
+            'footer'
+            'right';
         grid-template-columns: auto;
         grid-template-rows: 20% 10% auto 20% 20%;
     }
