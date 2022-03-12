@@ -38,7 +38,7 @@ body {
 
 .item4 {
     grid-area: right;
-    background-color: chartreuse;
+    z-index: 500;
 }
 
 .item5 {
@@ -179,8 +179,8 @@ body {
     }
 
     .nav__responsive-li{
-        width: 50vw;
-        padding: .6em;
+        width: 100vw;
+        padding: 1em;
         display: inline-block;
     }
 
