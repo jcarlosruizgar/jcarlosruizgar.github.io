@@ -92,18 +92,19 @@ body {
 
 .nav__li {
     display: inline-block;
-    padding: 1em;
+    padding: 25px;
+    margin: 15px;
     color: hsl(0, 0%, 90%);
 }
 
 .nav__li:hover>a {
     color: hsl(37, 98%, 53%);
-    font-size: 1.1em;
 }
 
 .nav__li:hover {
     color: hsl(37, 98%, 53%);
-    font-size: 1.1em;
+    background-color: hsla(221, 51%, 16%, 0.2);
+    border-radius: 10px;
 }
 
 .nav__li a {
@@ -150,7 +151,6 @@ body {
 
 .fa-brands:hover{
     color: hsl(37, 98%, 53%);
-    font-size: 1.1em;
 }
 
 .publimovil{
