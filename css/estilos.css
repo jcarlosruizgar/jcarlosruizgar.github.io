@@ -123,8 +123,6 @@ body {
 .div-copy{
     width: 50%;
     margin: auto;
-   
-    
 }
 
 .div-redes{
@@ -180,7 +178,6 @@ body {
         position: absolute;
         width: 100vw;
         font-size: 1.5em;
-        background-color: #69c;
         margin-top: -3em;
         z-index: 100;
     }
@@ -189,6 +186,15 @@ body {
         padding: 0.5em 1em;
         text-align: right;
         width: 100vw;
+        color: hsl(0, 0%, 90%);
+    }
+    
+    .nav{
+        background-color: hsla(0, 0%, 0%, .0);
+    }
+
+    .nav__responsive-button:hover{
+        color: hsl(37, 98%, 53%);
     }
 
     .nav{
@@ -213,19 +219,27 @@ body {
     .nav__responsive-li i{
         width: 1.5em;
         text-align: center;
-        color: #016;
+        color: hsl(0, 0%, 90%);
     }
 
     .nav__responsive-li a{
-        color: #016;
+        color: hsl(0, 0%, 90%);
         text-decoration: none;
+    }
+
+    .nav__responsive-li i:hover{
+        color: hsl(37, 98%, 53%);
+    }
+
+    .nav__responsive-li a:hover{
+        color: hsl(37, 98%, 53%);
     }
 
     .nav__li-container{
         position: relative;
         top: -10000px;
         height: calc(100vh - 4em);
-        background-color: #48e;
+        background-color: hsla(0, 0%, 0%, .8);
         transition: all 1s;
         z-index: 1;
         width: 100vw;
@@ -245,7 +259,7 @@ body {
             'right'
             'footer';
         grid-template-columns: auto;
-        grid-template-rows: 15% 10% auto 15% 15%;
+        grid-template-rows: 20% 5% auto 15% 15%;
     }
 
     .grid-container>div {
