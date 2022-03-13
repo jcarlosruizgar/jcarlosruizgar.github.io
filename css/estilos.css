@@ -261,7 +261,9 @@ body {
             'right'
             'footer';
         grid-template-columns: auto;
-        grid-template-rows: 20% 3% auto 15% 15%;
+        grid-template-rows: 20% 5% auto 15% 15%;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
     }
 
     .grid-container>div {
