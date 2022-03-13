@@ -84,26 +84,30 @@ body {
 }
 
 .nav {
-    background-color: darkslateblue;
+    background-color: hsla(0, 0%, 0%, .8);
     border-radius: 50px;
+    width: 60%;
+   
 }
 
 .nav__li {
     display: inline-block;
     padding: 1em;
-    color: #fff;
+    color: hsl(0, 0%, 90%);
 }
 
 .nav__li:hover>a {
-    color: #bbb;
+    color: hsl(37, 98%, 53%);
+    font-size: 1.1em;
 }
 
 .nav__li:hover {
-    color: #bbb;
+    color: hsl(37, 98%, 53%);
+    font-size: 1.1em;
 }
 
 .nav__li a {
-    color: #fff;
+    color: hsl(0, 0%, 90%);
     text-decoration: none;
 }
 
