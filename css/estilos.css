@@ -52,7 +52,7 @@ body {
 
 .item5 {
     grid-area: footer;
-    background-color: crimson;
+    background-color: hsla(0, 0%, 0%, .8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,14 +134,15 @@ body {
     font-size: 0.7em;
     font-weight: bold;
     padding-bottom: 0.5em;
+    color: hsl(0, 0%, 90%);
 }
 
 .fa-brands{
-    color:black;
+    color: hsl(0, 0%, 90%);
 }
 
 .fa-brands:hover{
-    color: white;
+    color: hsl(37, 98%, 53%);
     font-size: 1.1em;
 }
 
