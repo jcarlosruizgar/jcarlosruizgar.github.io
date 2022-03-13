@@ -37,10 +37,11 @@ body {
 
 .item3 {
     grid-area: main;
-    background-color: blueviolet;
+    background-color: hsla(37, 98%, 53%, .02);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50px;
 }
 
 .item4 {
@@ -68,6 +69,8 @@ body {
         'footer footer footer';
     grid-template-columns:10% auto 15%;
     grid-template-rows: 15% 10% auto 15%;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
 }
 
 .grid-container>div {
