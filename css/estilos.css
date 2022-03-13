@@ -237,8 +237,8 @@ body {
 
     .nav__li-container{
         position: relative;
-        top: -10000px;
-        height: calc(100vh - 4em);
+        top: -1000px;
+        height: auto;
         background-color: hsla(0, 0%, 0%, .8);
         transition: all 1s;
         z-index: 1;
@@ -259,7 +259,7 @@ body {
             'right'
             'footer';
         grid-template-columns: auto;
-        grid-template-rows: 20% 5% auto 15% 15%;
+        grid-template-rows: 20% 3% auto 15% 15%;
     }
 
     .grid-container>div {
