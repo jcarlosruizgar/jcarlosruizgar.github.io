@@ -164,6 +164,30 @@ body {
     display: none;
 }
 
+.publiescritorio{
+    position: fixed;
+    top: 25%;
+}
+
+.seccion{
+    padding: 10px;
+    margin: 10px;
+    text-align:justify;
+}
+
+.seccion article{
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seccion article h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
 
 
 
@@ -299,5 +323,14 @@ body {
     .headermovil{
         display: block;
     }
+    
+    .seccion article h1{
+        font-size: 45px;
+    }
+
+    .seccion article p{
+        font-size: 20px;
+    }
+
 
 }
