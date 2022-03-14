@@ -233,12 +233,12 @@ body {
         text-decoration: none;
     }
 
-    .nav__responsive-li i:hover{
+    .nav__responsive-li:hover i{
         color: hsl(37, 98%, 53%);
         transition: all 1s;
     }
 
-    .nav__responsive-li a:hover{
+    .nav__responsive-li:hover a{
         color: hsl(37, 98%, 53%);
         transition: all 1s;
     }
