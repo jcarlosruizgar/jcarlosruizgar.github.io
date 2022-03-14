@@ -5,7 +5,7 @@
 }
 .formulario{
     height:fit-content;
-    width: 50vw;
+    width: auto;
 }
 input:invalid,
 tex:invalid{

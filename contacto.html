@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/formulario.css">
     <link rel="icon" href="./media/icon.png">
     <title>Contacto | El monstruo del lago net</title>
 </head>
@@ -32,7 +33,8 @@
                 <ul class="nav__ul">
                     <li class="nav__li"><i class="fa-solid fa-house"></i><a href="./index.html">Inicio</a></li>
                     <li class="nav__li"><i class="fa-solid fa-newspaper"></i><a href="./blog.html">Blog</a></li>
-                    <li class="nav__li"><i class="fa-solid fa-address-book"></i><a href="./contacto.html">Contacto</a></li>
+                    <li class="nav__li"><i class="fa-solid fa-address-book"></i><a href="./contacto.html">Contacto</a>
+                    </li>
                 </ul>
                 <ul class="nav__responsive-ul">
                     <div class="nav__responsive-button-container">
@@ -41,8 +43,10 @@
                     <div class="nav__li-container">
                         <li class="nav__responsive-li"><i class="fa-solid fa-house"></i><a
                                 href="./index.html">Inicio</a></li>
-                        <li class="nav__responsive-li"><i class="fa-solid fa-newspaper"></i><a href="./blog.html">Blog</a></li>
-                        <li class="nav__responsive-li"><i class="fa-solid fa-address-book"></i><a href="./contacto.html">Contacto</a>
+                        <li class="nav__responsive-li"><i class="fa-solid fa-newspaper"></i><a
+                                href="./blog.html">Blog</a></li>
+                        <li class="nav__responsive-li"><i class="fa-solid fa-address-book"></i><a
+                                href="./contacto.html">Contacto</a>
                         </li>
                     </div>
                 </ul>
@@ -50,7 +54,87 @@
         </div>
         <div class="item3">
             <section class="seccion">
-                
+                <article>
+                    <h1>Contacta con el monstruo del lago net</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tristique velit. Duis mollis
+                        velit et neque rutrum, sed faucibus metus commodo. In hac habitasse platea dictumst. Donec
+                        tincidunt commodo augue ac efficitur. Sed tincidunt sagittis eros, nec iaculis lacus volutpat
+                        quis. In quam massa, convallis id mi sit amet, vehicula venenatis ligula. Ut quam neque,
+                        volutpat id magna a, sollicitudin euismod leo. Quisque ut urna eros.</p>
+                </article>
+                <div class="formulario">
+                    <form action="/action_page.php" method="post" target="_blank">
+                        <fieldset>
+                            <legend>Datos personales:</legend>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos" required placeholder="Apellidos">
+                            <label for="edad">Edad:</label>
+                            <input type="number" id="edad" name="edad" required placeholder="Edad">
+                            <br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required placeholder="ejemplo@ejemplo.com">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required
+                                placeholder="XXXXXXXXX">
+                            <label for="fecha">Fecha de nacimiento:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Otros datos:</legend>
+                            <label for="hora">Hora:</label>
+                            <input type="time" id="hora" name="hora">
+                            <br>
+                            <label for="archivo">Archivo:</label>
+                            <br>
+                            <input type="file" name="archivo" id="archivo">
+                            <br>
+                            <label for="rango">Rango:</label>
+                            <br>
+                            <input type="range" id="rango" name="rango">
+                            <br>
+                            <label for="contrasena">Constraseña:</label>
+                            <br>
+                            <input type="password" id="contrasena" name="contrasena" required>
+                            <br>
+                            <label for="titulacion">Titulación:</label>
+                            <select name="titulacion" id="titulacion">
+                                <optgroup label="Nivel básico">
+                                    <option value="bachillerato">Bachillerato</option>
+                                    <option value="medio">Grado medio</option>
+                                </optgroup>
+                                <optgroup label="Nivel superior">
+                                    <option value="superior">Grado superior</option>
+                                    <option value="universidad">Universidad</option>
+                                </optgroup>
+                            </select>
+                            <br>
+                            <label for="modulos">Módulo preferido:</label>
+                            <br>
+                            <input type="radio" id="lm" name="modulos" value="LM">
+                            <label for="lm">Lenguaje de marca</label>
+                            <br>
+                            <input type="radio" id="bd" name="modulos" value="bd">
+                            <label for="bd">Bases de datos</label>
+                            <br>
+                            <label for="vehiculos">Vehículos que tienes:</label>
+                            <br>
+                            <input type="checkbox" id="coche" name="coche" value="coche">
+                            <label for="coche">Coche</label>
+                            <br>
+                            <input type="checkbox" id="moto" name="moto" value="moto">
+                            <label for="moto">moto</label>
+                            <br>
+                            <label for="info">Información adicional:</label>
+                            <br>
+                            <textarea name="info" id="info" placeholder="Aporte información adicional..."></textarea>
+                        </fieldset>
+                        <input type="reset" name="Reiniciar" id="reset">
+                        <br>
+                        <input type="submit" name="Enviar" id="submit">
+                    </form>
+                </div>
             </section>
         </div>
         <div class="item4">

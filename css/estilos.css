@@ -99,7 +99,12 @@ body {
     color: hsl(0, 0%, 90%);
 }
 
-.nav__li:hover>a {
+.nav__li:hover a {
+    color: hsl(37, 98%, 53%);
+    transition: all .5s;
+}
+
+.nav__li:hover i {
     color: hsl(37, 98%, 53%);
     transition: all .5s;
 }
