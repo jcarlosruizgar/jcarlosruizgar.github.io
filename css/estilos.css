@@ -99,14 +99,14 @@ body {
 
 .nav__li:hover>a {
     color: hsl(37, 98%, 53%);
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .nav__li:hover {
     color: hsl(37, 98%, 53%);
     background-color: hsla(221, 51%, 16%, 0.2);
     border-radius: 10px;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .nav__li a {
@@ -151,7 +151,7 @@ body {
 
 .fa-brands:hover{
     color: hsl(37, 98%, 53%);
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .publimovil{
@@ -198,7 +198,7 @@ body {
 
     .nav__responsive-button:hover{
         color: hsl(37, 98%, 53%);
-        transition: all 1s;
+        transition: all .5s;
     }
 
     .nav{
@@ -235,12 +235,12 @@ body {
 
     .nav__responsive-li:hover i{
         color: hsl(37, 98%, 53%);
-        transition: all 1s;
+        transition: all .5s;
     }
 
     .nav__responsive-li:hover a{
         color: hsl(37, 98%, 53%);
-        transition: all 1s;
+        transition: all .5s;
     }
 
     .nav__li-container{
@@ -248,7 +248,7 @@ body {
         top: -1000px;
         height: auto;
         background-color: hsla(0, 0%, 0%, .8);
-        transition: all 1s;
+        transition: all .5s;
         z-index: 1;
         width: 100vw;
         padding-top: 1em;
