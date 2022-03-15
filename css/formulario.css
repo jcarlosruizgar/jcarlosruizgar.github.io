@@ -24,11 +24,11 @@ option{
 }
 
 input::placeholder{
-    color: hsla(37, 98%, 53%, .8);
+    color: hsla(37, 98%, 53%, .5);
 }
 
 textarea::placeholder{
-    color: hsla(37, 98%, 53%, .8);
+    color: hsla(37, 98%, 53%, .5);
 }
 
 input:invalid,
