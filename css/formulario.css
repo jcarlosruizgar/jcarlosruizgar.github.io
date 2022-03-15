@@ -9,6 +9,18 @@ input, select, textarea{
     color: hsl(221, 67%, 24%);
 }
 
+optgroup{
+    font-size: 1em;
+    font-weight: bold;
+    color: hsl(221, 67%, 24%);
+}
+
+option{
+    font-size: .9em;
+    font-weight: 800;
+    color: hsl(221, 67%, 24%);
+}
+
 input:invalid,
 text:invalid{
     color: hsl(0, 100%, 50%);
