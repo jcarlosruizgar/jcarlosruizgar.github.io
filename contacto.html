@@ -96,7 +96,9 @@
                             <br>
                             <label for="contrasena">Constraseña:</label>
                             <br>
-                            <input type="password" id="contrasena" name="contrasena" required>
+                            <input type="password" id="contrasena" name="contrasena" required
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                title="Debe contener al menos un número, una letra mayúscula, una letra minúscula y 8 o más caracteres.">
                             <br>
                             <label for="titulacion">Titulación:</label>
                             <select name="titulacion" id="titulacion">
