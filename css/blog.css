@@ -1,15 +1,20 @@
 .blog{
-    border: 2px solid black;
     padding: 30px;
     margin: 10px;
     border-radius: 10px;
 }
 
 .post{
-    border: 2px solid red;
+    border: 2px solid hsla(37, 98%, 53%, .02);
     padding: 30px 20px;
     margin: 40px 10px;
     border-radius: 10px;
+    background-color: hsl(221, 51%, 16%);
+}
+
+.post:hover{
+    border: 2px solid hsl(37, 98%, 53%);
+    transition: all, .5s;
 }
 
 .post h2:hover a{
@@ -29,7 +34,7 @@
 
 .post p{
     font-size: .5em;
-    padding: 10px 0px;
+    padding: 5px 0px 0px 0px;
     margin: 5px 0px;
 }
 
@@ -39,4 +44,9 @@
 
 .post p:hover a{
     color: hsl(37, 98%, 53%);
+    transition: all, .5s;
+}
+
+.post h3{
+    font-size: 1em;
 }
