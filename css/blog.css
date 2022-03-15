@@ -1,9 +1,13 @@
 .blog{
-    border: 5px solid black;
-    padding: 20px;
-    margin: 20px;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .post{
-
+    border: 2px solid red;
+    padding: 30px 20px;
+    margin: 40px 10px;
+    border-radius: 10px;
 }
