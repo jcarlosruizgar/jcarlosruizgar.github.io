@@ -1,5 +1,5 @@
 .blog{
-    padding: 30px;
+    padding: 20px 10px;
     margin: 10px;
     border-radius: 10px;
     display: flex;
@@ -8,8 +8,8 @@
 
 .post{
     border: 2px solid hsla(37, 98%, 53%, .02);
-    padding: 30px 20px;
-    margin: 40px 10px;
+    padding: 30px 10px 30px 25px;
+    margin: 20px 10px;
     border-radius: 10px;
     background-color: hsl(221, 51%, 16%);
 }
@@ -62,7 +62,7 @@
 
     .post{
         padding: 15px 10px;
-        margin: 20px 5px;
+        margin: 15px 5px;
     }
 
     .post h2{
