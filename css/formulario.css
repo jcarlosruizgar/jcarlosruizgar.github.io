@@ -54,6 +54,16 @@ input{
     transition: all .5s;
 }
 
+textarea{
+    width: 40vw;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+fieldset{
+    padding: 20px 20px 20px 50px;
+    margin: 10px;
+}
 
 
 /*modo responsivo movil de maximo 800px de ancho*/
@@ -61,6 +71,16 @@ input{
     .formulario{
         padding: 1px;
         margin: 1px;
+    }
+
+    textarea{
+        width: 70vw;
+        height: 10vh;
+    }
+
+    fieldset{
+        padding: 20px;
+        margin: 5px;
     }
 
 }
