@@ -3,6 +3,7 @@
     width: auto;
     padding: 5px;
     margin: 5px;
+    font-size: .9em;
 }
 
 input, select, textarea{
@@ -12,7 +13,7 @@ input, select, textarea{
 }
 
 optgroup{
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
     color: hsl(221, 67%, 24%);
 }
@@ -34,4 +35,45 @@ textarea::placeholder{
 input:invalid,
 text:invalid{
     color: hsl(0, 100%, 50%);
+}
+
+input{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.boton-formulario{
+    border: 2px solid;
+}
+
+.boton-formulario:hover{
+    color: hsl(0, 0%, 90%);
+    background-color: hsl(37, 98%, 53%);
+    border-color: hsl(221, 67%, 24%);
+    transition: all .5s;
+}
+
+
+
+
+
+
+
+/*modo responsivo movil de maximo 800px de ancho*/
+@media only screen and (max-width:800px){
+    .formulario{
+        padding: 1px;
+        margin: 1px;
+    }
+
+    
+
+
+
+
+
+
+
+
 }
