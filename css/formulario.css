@@ -56,24 +56,11 @@ input{
 
 
 
-
-
-
-
 /*modo responsivo movil de maximo 800px de ancho*/
 @media only screen and (max-width:800px){
     .formulario{
         padding: 1px;
         margin: 1px;
     }
-
-    
-
-
-
-
-
-
-
 
 }
