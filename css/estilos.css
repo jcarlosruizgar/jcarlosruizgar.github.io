@@ -57,8 +57,7 @@ body {
     grid-area: footer;
     background-color: hsla(0, 0%, 0%, .8);
     display: flex;
-    align-items: center;
-    justify-content: center;
+   
 }
 
 .grid-container {
@@ -293,7 +292,7 @@ body {
             'right'
             'footer';
         grid-template-columns: auto;
-        grid-template-rows: 20% 5% auto 15% 15%;
+        grid-template-rows: 20% 5% auto 15% 30%;
         grid-row-gap: 10px;
         grid-column-gap: 10px;
     }
@@ -304,9 +303,7 @@ body {
         padding: 0;
     }
   
-    .div-copy{
-        display: none;
-    }
+    
 
     .publiescritorio{
         display: none;
@@ -332,5 +329,8 @@ body {
         font-size: 20px;
     }
 
+    .item5{
+        display: block;
+    }
 
 }
