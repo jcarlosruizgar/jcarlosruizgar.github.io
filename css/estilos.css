@@ -69,9 +69,9 @@ body {
         'left main right'
         'footer footer footer';
     grid-template-columns:10% auto 15%;
-    grid-template-rows: 15% 10% auto 15%;
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
 }
 
 .grid-container>div {
@@ -196,7 +196,7 @@ body {
 
 
 
-
+/*modo responsivo movil de maximo 800px de ancho*/
 @media only screen and (max-width: 800px) {
     .nav__ul{
         display: none;
@@ -292,7 +292,7 @@ body {
             'right'
             'footer';
         grid-template-columns: auto;
-        grid-template-rows: 20% 5% auto 15% 30%;
+        grid-template-rows: auto auto auto auto auto;
         grid-row-gap: 10px;
         grid-column-gap: 10px;
     }
