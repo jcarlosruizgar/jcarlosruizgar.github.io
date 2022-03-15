@@ -55,9 +55,10 @@ input{
 }
 
 textarea{
-    width: 40vw;
+    width: 35vw;
     height: 20vh;
     border-radius: 10px;
+    resize: none;
 }
 
 fieldset{
@@ -74,8 +75,8 @@ fieldset{
     }
 
     textarea{
-        width: 70vw;
-        height: 10vh;
+        width: 75vw;
+        height: 15vh;
     }
 
     fieldset{
