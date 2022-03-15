@@ -1,13 +1,15 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 .formulario{
     height:fit-content;
     width: auto;
 }
+
+input, select, textarea{
+    font-size: .5em;
+    font-weight: 600;
+    color: hsl(221, 67%, 24%);
+}
+
 input:invalid,
-tex:invalid{
-    color: red;
+text:invalid{
+    color: hsl(0, 100%, 50%);
 }
