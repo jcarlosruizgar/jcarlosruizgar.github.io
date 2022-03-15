@@ -1,6 +1,8 @@
 .formulario{
     height:fit-content;
     width: auto;
+    padding: 5px;
+    margin: 5px;
 }
 
 input, select, textarea{
@@ -19,6 +21,14 @@ option{
     font-size: .9em;
     font-weight: 800;
     color: hsl(221, 67%, 24%);
+}
+
+input::placeholder{
+    color: hsla(37, 98%, 53%, .8);
+}
+
+textarea::placeholder{
+    color: hsla(37, 98%, 53%, .8);
 }
 
 input:invalid,
