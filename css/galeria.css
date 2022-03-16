@@ -15,3 +15,27 @@
     margin-top: 8px;
     vertical-align: middle;
 }
+
+/*modo responsivo movil de maximo 1600px de ancho*/
+@media only screen and (max-width:1600px){
+    .columna{
+        flex: 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+/*modo responsivo movil de maximo 1300px de ancho*/
+@media only screen and (max-width:1300px){
+    .columna{
+        flex: 50%;
+        max-width: 55%;
+    }
+}
+
+/*modo responsivo movil de maximo 800px de ancho*/
+@media only screen and (max-width:800px){
+    .columna{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
