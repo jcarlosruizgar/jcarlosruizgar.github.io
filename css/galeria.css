@@ -23,12 +23,13 @@
     margin-top: 16px;
     vertical-align: middle;
     border-radius: 10px;
+    transition:all, .5s;
 }
 
 .columna img:hover{
     border: none;
     transform: scale(1.05);
-    transition:all, .5s;
+    
 }
 
 /*modo responsivo movil de maximo 1600px de ancho*/
