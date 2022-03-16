@@ -1,0 +1,17 @@
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+}
+
+.columna{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+}
+
+.columna img{
+    width: 50%;
+    margin-top: 8px;
+    vertical-align: middle;
+}
