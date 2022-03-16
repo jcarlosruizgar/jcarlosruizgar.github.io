@@ -25,6 +25,11 @@
 
 .columna img{
     border-radius: 10px;
+    border: 5px solid hsl(221, 51%, 16%);
+}
+
+.columna img:hover{
+    border: none;
 }
 
 /*modo responsivo movil de maximo 1600px de ancho*/
@@ -33,6 +38,14 @@
         flex: 33.33%;
         max-width: 33.33%;
     }
+
+    .columna img{
+        border: 3px solid hsl(221, 51%, 16%);
+    }
+    
+    .columna img:hover{
+        border: none;
+    }
 }
 
 /*modo responsivo movil de maximo 1300px de ancho*/
@@ -40,6 +53,14 @@
     .columna{
         flex: 50%;
         max-width: 55%;
+    }
+
+    .columna img{
+        border: 2px solid hsl(221, 51%, 16%);
+    }
+    
+    .columna img:hover{
+        border: none;
     }
 }
 
@@ -52,5 +73,13 @@
 
     .seccion h1{
         font-size: 1em;
+    }
+
+    .columna img{
+        border: 1px solid hsl(221, 51%, 16%);
+    }
+    
+    .columna img:hover{
+        border: none;
     }
 }
