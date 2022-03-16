@@ -1,0 +1,28 @@
+.menu{
+    position: absolute;
+    font-size: 3em;
+    padding: 20px 10px;
+    margin: 20px 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    color: aquamarine;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu li ul{
+    display: none;
+}
+
+.menu li:hover > ul{
+    display: block;
+}

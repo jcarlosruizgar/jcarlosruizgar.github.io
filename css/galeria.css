@@ -52,7 +52,7 @@
 @media only screen and (max-width:1300px){
     .columna{
         flex: 50%;
-        max-width: 55%;
+        max-width: 50%;
     }
 
     .columna img{
