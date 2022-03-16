@@ -27,7 +27,7 @@
                 </ul>
             </div>
             <div class="div__responsivo" id="responsivo">
-                <a href="javascript:void(0)" class="cerrar" onclick="closeNav()">&times;</a>
+                <a href="javascript:void(0)" class="cerrar" onclick="cerrarMenu()">&times;</a>
                 <div class="pegajoso">
                     <ul class="menu__responsivo">
                         <li><a href="">Inicio</a></li>
@@ -42,19 +42,19 @@
                     </ul>
                 </div>
             </div>
-            <div class="prueba"></div>
+            <div class="prueba">
+                <span style="font-size:30px;cursor:pointer" onclick="abrirMenu()">&#9776;</span>
+            </div>
         </nav>
-        <img src="" alt="">
     </header>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
     <script>
-        function openNav() {
+        function abrirMenu() {
         document.getElementById("responsivo").style.width = "100%";
         }
         
-        function closeNav() {
+        function cerrarMenu() {
         document.getElementById("responsivo").style.width = "0%";
         }
-        </script>
+    </script>
 </body>
 </html>
