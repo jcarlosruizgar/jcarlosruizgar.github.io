@@ -4,18 +4,6 @@
     padding: 0px 4px;
 }
 
-.columna{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0px 8px;
-}
-
-.columna img{
-    width: 100%;
-    margin-top: 16px;
-    vertical-align: middle;
-}
-
 .seccion h1{
     font-size: 60px;
     text-align: center;
@@ -23,7 +11,17 @@
     margin: 10px;
 }
 
+.columna{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 8px;
+    
+}
+
 .columna img{
+    width: 100%;
+    margin-top: 16px;
+    vertical-align: middle;
     border-radius: 10px;
 }
 
