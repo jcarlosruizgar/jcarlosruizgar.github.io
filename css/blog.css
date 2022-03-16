@@ -22,6 +22,7 @@
 .post h2{
     transition: all, .5s;
 }
+
 .post h2:hover a{
     color: hsl(37, 98%, 53%);
     

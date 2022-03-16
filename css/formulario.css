@@ -50,13 +50,13 @@ input{
 .boton-formulario{
     font-size: 1em;
     border: 2px solid;
+    transition: all .5s;
 }
 
 .boton-formulario:hover{
     color: hsl(0, 0%, 90%);
     background-color: hsl(37, 98%, 53%);
     border-color: hsl(221, 67%, 24%);
-    transition: all .5s;
 }
 
 textarea{
