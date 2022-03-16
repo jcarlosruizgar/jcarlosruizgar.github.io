@@ -96,32 +96,33 @@ body {
     padding: 25px;
     margin: 10px;
     color: hsl(0, 0%, 90%);
+    transition: all .5s;
 }
 
 .nav__li:hover a {
     color: hsl(37, 98%, 53%);
-    transition: all .5s;
 }
 
 .nav__li:hover i {
     color: hsl(37, 98%, 53%);
-    transition: all .5s;
 }
 
 .nav__li:hover {
     color: hsl(37, 98%, 53%);
     background-color: hsla(221, 51%, 16%, 0.2);
     border-radius: 10px;
-    transition: all .5s;
+    
 }
 
 .nav__li a {
     color: hsl(0, 0%, 90%);
     text-decoration: none;
+    transition: all .5s;
 }
 
 .nav__li i {
     width: 1.5em;
+    transition: all .5s;
 }
 
 .copyright{
@@ -153,11 +154,11 @@ body {
 
 .fa-brands{
     color: hsl(0, 0%, 90%);
+    transition: all .5s;
 }
 
 .fa-brands:hover{
     color: hsl(37, 98%, 53%);
-    transition: all .5s;
 }
 
 .publimovil{
@@ -208,6 +209,7 @@ body {
         text-align: right;
         width: 100vw;
         color: hsl(0, 0%, 90%);
+        transition: all .5s;
     }
     
     .nav{
@@ -216,7 +218,6 @@ body {
 
     .nav__responsive-button:hover{
         color: hsl(37, 98%, 53%);
-        transition: all .5s;
     }
 
     .nav{
@@ -244,21 +245,21 @@ body {
         width: 1.5em;
         text-align: center;
         color: hsl(0, 0%, 90%);
+        transition: all .5s;
     }
 
     .nav__responsive-li a{
         color: hsl(0, 0%, 90%);
         text-decoration: none;
+        transition: all .5s;
     }
 
     .nav__responsive-li:hover i{
         color: hsl(37, 98%, 53%);
-        transition: all .5s;
     }
 
     .nav__responsive-li:hover a{
         color: hsl(37, 98%, 53%);
-        transition: all .5s;
     }
 
     .nav__li-container{
