@@ -7,13 +7,24 @@
 .columna{
     flex: 25%;
     max-width: 25%;
-    padding: 0px 4px;
+    padding: 0px 8px;
 }
 
 .columna img{
     width: 100%;
-    margin-top: 8px;
+    margin-top: 16px;
     vertical-align: middle;
+}
+
+.seccion h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.columna img{
+    border-radius: 10px;
 }
 
 /*modo responsivo movil de maximo 1600px de ancho*/
@@ -37,5 +48,9 @@
     .columna{
         flex: 100%;
         max-width: 100%;
+    }
+
+    .seccion h1{
+        font-size: 1em;
     }
 }
