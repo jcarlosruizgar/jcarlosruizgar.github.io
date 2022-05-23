@@ -126,6 +126,9 @@ body {
 
 .copyright{
     width: 80px;
+    z-index: 1;
+    position: relative;
+    animation: hacia_arriba 5s;
 }
 
 .div-copy{
@@ -149,11 +152,14 @@ body {
     font-weight: bold;
     padding-bottom: 0.5em;
     color: hsl(0, 0%, 90%);
+    position: relative;
 }
 
 .fa-brands{
     color: hsl(0, 0%, 90%);
     transition: all .5s;
+    position: relative;
+    animation: hacia_arriba 5s;
 }
 
 .fa-brands:hover{
@@ -198,6 +204,11 @@ body {
     0%{top: -50vh;}
     50%{top:50vh;}
     100%{top:-50vh;}
+}
+
+@keyframes hacia_arriba{
+    from{bottom: -5vh;}
+    to{bottom:0vh;}
 }
 
 /*modo responsivo movil de maximo 800px de ancho*/
