@@ -9,7 +9,7 @@
     text-align: center;
     padding: 10px;
     margin: 10px;
-    animation: dar_vuelta 5s;
+    animation: dar_vuelta 5s linear;
 }
 
 .columna{
@@ -24,14 +24,20 @@
     vertical-align: middle;
     border-radius: 10px;
     transition:all, .5s;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    animation: entrada_imagenes 5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    animation: entrada_imagenes 5s ease;
 }
 
 .columna img:hover{
     border: none;
-    transform: scale(1.05);
-    
+    transform: scale(1.05);  
 }
 
 @keyframes dar_vuelta{
@@ -41,10 +47,8 @@
 }
 
 @keyframes entrada_imagenes{
-    from{transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
-        opacity: 0;}
-    to{transform: rotateY(0deg) translateY(0) skewY(0deg);
-        opacity: 1;}
+    from{transform: rotateY(30deg) translateY(-300px) skewY(-30deg);opacity: 0;}
+    to{transform: rotateY(0deg) translateY(0) skewY(0deg);opacity: 1;}
 }
 
 /*modo responsivo movil de maximo 1600px de ancho*/
