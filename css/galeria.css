@@ -9,6 +9,7 @@
     text-align: center;
     padding: 10px;
     margin: 10px;
+    animation: dar_vuelta 5s;
 }
 
 .columna{
@@ -30,6 +31,12 @@
     border: none;
     transform: scale(1.05);
     
+}
+
+@keyframes dar_vuelta{
+    0%{transform:rotateX(0)}
+    50%{transform:rotateX(180deg)}
+    100%{transform:rotateX(360deg)}
 }
 
 /*modo responsivo movil de maximo 1600px de ancho*/
