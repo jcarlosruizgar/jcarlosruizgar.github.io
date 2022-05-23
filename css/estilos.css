@@ -198,6 +198,7 @@ body {
 }
 
 .publiescritorio{
+    z-index: -1;
     position: relative;
     animation: animacionpubli 20s infinite;
 }

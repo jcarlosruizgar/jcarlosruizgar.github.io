@@ -15,6 +15,16 @@
     transition: all, .5s;
 }
 
+.post:nth-child(even){
+    position: relative;
+    animation: desde_izquierda 5s;
+}
+
+.post:nth-child(odd){
+    position: relative;
+    animation: desde_derecha 5s;
+}
+
 .post:hover{
     border: 2px solid hsl(37, 98%, 53%);
 }
@@ -54,6 +64,16 @@
 
 .post h3{
     font-size: 1em;
+}
+
+@keyframes desde_izquierda {
+    from{left:-80vw;}
+    to{left:0vw;}
+}
+
+@keyframes desde_derecha{
+    from{right:-80vw;}
+    to{right:0vw;}
 }
 
 /*modo responsivo movil de maximo 800px de ancho*/
