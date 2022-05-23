@@ -41,6 +41,7 @@ input{
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
+    
 }
 
 .botones-formulario{
@@ -73,6 +74,16 @@ fieldset{
 
 #archivo{
     color: hsl(0, 0%, 90%);
+}
+
+.formulario form fieldset{
+    animation: desvanece 2s;
+}
+
+@keyframes desvanece{
+    0% {opacity: 1;}
+    50% {opacity: 0.2;}
+    100% {opacity: 1;}
 }
 
 
