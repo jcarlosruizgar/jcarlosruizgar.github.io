@@ -96,6 +96,7 @@ body {
     margin: 10px;
     color: hsl(0, 0%, 90%);
     transition: all .5s;
+    animation: chico_grande 3s;
 }
 
 .nav__li:hover a {
@@ -209,6 +210,10 @@ body {
 @keyframes hacia_arriba{
     from{bottom: -5vh;}
     to{bottom:0vh;}
+}
+
+@keyframes chico_grande{
+    from{font-size:.6em;}
 }
 
 /*modo responsivo movil de maximo 800px de ancho*/
