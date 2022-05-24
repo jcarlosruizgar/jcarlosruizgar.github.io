@@ -22,7 +22,7 @@ body {
 }
 
 .item1 {
-    grid-area: header;
+    grid-area: logo;
     z-index: 100;
     display: flex;
     align-items: center;
@@ -58,12 +58,16 @@ body {
     display: flex;
 }
 
+.item6{
+    grid-area: header;
+}
+
 .grid-container {
     display: grid;
     height: 100vh;
     width: 100%;
     grid-template-areas:
-        'header header header'
+        'logo header header'
         'menu menu menu'
         'left main right'
         'footer footer footer';

@@ -15,8 +15,7 @@
         <div class="item1">
             <div class="headerescritorio">
                 <figure>
-                    <img src="./media/el-monstruo-del-lago-net.webp" alt="el monstruo del lago net" width="100%"
-                        height="100%">
+                    <img src="./media/dragon.webp" alt="el monstruo del lago net">
                 </figure>
             </div>
             <div class="headermovil">
@@ -24,6 +23,11 @@
                     <img src="./media/el-monstruo-del-lago-net2.webp" alt="el monstruo del lago net" width="100%"
                         height="100%">
                 </figure>
+            </div>
+        </div>
+        <div class="item6">
+            <div>
+                <p id="b_usr">Bienvenido, invitado</p>
             </div>
         </div>
         <div class="item2">
@@ -136,6 +140,23 @@
             </div>
         </div>
     </div>
+    <script>
+        var usr = window.prompt("Usuario");
+        var hoy = new Date();
+        var hora = hoy.getHours();
+        var mensaje;
+        if(hora>=6&hora<12){
+            mensaje = "Buenos días, ";
+        }
+        else if(hora>=12&hora<21){
+            mensaje = "Buenas tardes, ";
+        }
+        else{
+            mensaje = "Buenas noches, ";
+        }
+        document.getElementById("b_usr").innerHTML =mensaje+usr;
+        
+    </script>
 </body>
 <script src="https://kit.fontawesome.com/3375f98342.js" crossorigin="anonymous"></script>
 
