@@ -1,4 +1,4 @@
-var usr = window.prompt("Usuario");
+var usr = window.prompt("Introduzca su nombre:");
         var hoy = new Date();
         var hora = hoy.getHours();
         var mensaje;
