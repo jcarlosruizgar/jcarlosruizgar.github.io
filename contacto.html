@@ -32,7 +32,8 @@
                 <form action="/action_page.php" method="post" target="_blank" id="formulario_login">
                     <input type="text" id="nombre" name="nombre_login" required placeholder="Usuario">
                     <br>
-                    <input type="password" id="contrasena" name="contrasena" required placeholder="contraseña">
+                    <input type="password" id="contrasena" name="contrasena" required placeholder="contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Debe contener al menos un número, una letra mayúscula, una letra minúscula y 8 o más caracteres.">
                     <br>
                     <input class="boton_login" type="submit" name="enviar_login" id="submit">
                 </form>
