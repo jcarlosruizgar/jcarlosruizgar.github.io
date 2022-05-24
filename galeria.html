@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/formulario.css">
     <link rel="stylesheet" href="./css/galeria.css">
     <link rel="icon" href="./media/icon.png">
     <title>Galería | El monstruo del lago net</title>
@@ -29,6 +30,13 @@
         <div class="item6">
             <div>
                 <h2 id="b_usr">Bienvenido, invitado</h2>
+                <form action="/action_page.php" method="post" target="_blank" id="formulario_login">
+                    <input type="text" id="nombre" name="nombre_login" required placeholder="Usuario">
+                    <br>
+                    <input type="password" id="contrasena" name="contrasena" required placeholder="contraseña">
+                    <br>
+                    <input class="boton_login" type="submit" name="enviar_login" id="submit">
+                </form>
             </div>
         </div>
         <div class="item2">
@@ -134,5 +142,6 @@
     </div>
 </body>
 <script src="https://kit.fontawesome.com/3375f98342.js" crossorigin="anonymous"></script>
-<script src="./js/bienvenido.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="./js/hola.js"></script>
 </html>
