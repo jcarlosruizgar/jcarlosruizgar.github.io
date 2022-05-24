@@ -312,7 +312,7 @@ body {
 
     .nav__li-container{
         position: relative;
-        top: -1000px;
+        top: -1200px;
         height: auto;
         background-color: hsla(0, 0%, 0%, .8);
         transition: all .5s;
@@ -346,8 +346,6 @@ body {
         padding: 0;
     }
   
-    
-
     .publiescritorio{
         display: none;
     }
