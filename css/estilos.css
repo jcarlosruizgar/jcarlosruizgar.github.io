@@ -60,6 +60,16 @@ body {
 
 .item6{
     grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item6 div{
+    background-color: hsla(37, 98%, 53%, .02);
+    padding: 10px 30px;
+    border-radius: 50px;
+    
 }
 
 .grid-container {
