@@ -318,6 +318,7 @@ body {
     .grid-container {
         display: grid;
         grid-template-areas:
+            'logo'
             'header'
             'menu'
             'main'
